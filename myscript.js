@@ -4,7 +4,7 @@ console.log("percorsoInKm");
 const userAge = prompt("Quanti anni hai?");
 console.log("userAge");
 
-let priceBase = (0,21 * percorsoInKm);
+let priceBase = (0.21 * percorsoInKm);
 console.log(priceBase);
 
 if ((userAge > 18) || (userAge < 65)) {
